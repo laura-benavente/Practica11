@@ -1,0 +1,78 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f7f3f9; /* Fondo body */
+    text-align: center; /**/
+    padding: 20px; /**/
+}
+
+h1 {
+    color: #6a5b99; /*color uente títutlo */
+}
+
+form {
+    margin: auto; /* centrado */
+    padding: 20px; /* centrado */
+    border: 2px solid #d4a6c8; /* tamaño y color borde formulario*/
+    border-radius: 10px; /* redondeado del borde*/
+    background-color: #ffffff; /* color fondo formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombreado*/
+    width: 300px; /* ancho*/
+}
+
+fieldset {
+    border: 1px solid #d4a6c8; /* color y tamaño borde fieldset*/
+    padding: 10px; /* tamaño y centrado */
+    margin: 10px 0; /*tamaño y centrado*/
+}
+
+legend {
+    font-weight: bold; /* fuente legend negrita*/
+    color: #4b3c5a; /* color fuente*/
+}
+
+.form-group { /* tamaño, centrado y display de form*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 10px; 
+}
+
+label {
+    margin-bottom: 5px; /* centrado de label*/
+    color: #4b3c5a; /* color fuente label*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+select {
+    width: 100%; /* ancho */
+    padding: 8px; /* centrado */
+    font-family: Arial, Helvetica, sans-serif; /*fuente de los input*/
+    color:#4a3e74; /* color fuente input*/
+    font-weight: bold; /* negrita en input*/
+    border: 1px solid #d4a6c8; /* tamaño y color de borde  */
+    border-radius: 5px; /* redondeado borde*/
+    box-sizing: border-box; /* ccentrado */
+    margin-bottom: 10px; /* centrado*/
+}
+
+button {
+    background-color: #6a5b99; /* Fondo en morado pastel */
+    color: #ffffff; /* Texto en blanco */
+    padding: 10px 15px; /*centrado */
+    border: none; /* sin borde*/
+    border-radius: 5px; /* redondeado*/
+    cursor: pointer; /* pinter cuando el cursor pasa por encima*/
+    transition: background-color 0.3s; /*tiempo de trasnsicion a background color*/
+    margin: 5px; /* margen */
+}
+
+button:hover {
+    background-color: #4a3e74; /* Cambio de color */
+}
